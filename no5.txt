@@ -1,0 +1,4 @@
+Can we create an instance of an abstract class? Explain your answer.
+
+Answer:
+No, we cannot create an instance of an abstract class. Abstract classes are designed to provide a blueprint for subclasses. They often contain one or more abstract methods (methods without implementation), which must be implemented in a subclass. Attempting to instantiate an abstract class directly will raise a TypeError.

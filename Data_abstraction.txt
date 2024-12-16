@@ -1,0 +1,4 @@
+Data abstraction can be achieved using:
+
+Abstract Classes and Methods: By using the abc module, you can create abstract methods that define the required behavior but hide their implementation.
+Encapsulation: By using private/protected attributes and providing controlled access through methods (getters and setters).

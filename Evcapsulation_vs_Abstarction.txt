@@ -1,0 +1,14 @@
+Differentiate between Abstraction and Encapsulation
+
+Definition:	
+	Abstraction:	Hides implementation details and shows only essential features.	
+	Encapsultion:	Wraps data and methods into a single unit (class).
+Purpose:
+	Abstraction:	Focuses on exposing what is necessary.
+	Encapsultion:	Focuses on restricting direct access to data.
+Implementation:
+	Abstraction:	Achieved using abstract classes and interfaces.
+	Encapsultion:	Achieved using private/protected attributes and methods.
+Example	
+	Abstraction:	Using abstract methods in a class to define behavior.
+    Encapsultion:	Using getters and setters to protect sensitive data.

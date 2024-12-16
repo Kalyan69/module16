@@ -1,0 +1,14 @@
+from abc import ABC, abstractmethod
+
+class Payment(ABC):
+    @abstractmethod
+    def make_payment(self, amount):
+        pass
+
+class CreditCardPayment(Payment):
+    def make_payment(self, amount):
+        return f"Paid {amount} using Credit Card."
+
+# Usage:
+payment = CreditCardPayment()
+print(payment.make_payment(100))
